@@ -11,10 +11,11 @@
   ],
   "version": "0.1",
   "esmodules": [
-    "vtt-journal.js"
+    "scripts/vtt-journal.js",
+    "scripts/hello.js"
   ],
   "styles": [
-    "vtt-journal.css"
+    "styles/vtt-journal.css"
   ],
   "compatibility": {
     "minimum": "10",
