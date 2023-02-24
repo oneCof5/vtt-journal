@@ -10,22 +10,21 @@
     }
   ],
   "version": "0.1",
-  "esmodules": ["vtt-journal.js"],
-  "styles": ["vtt-journal.css"],
+  "esmodules": [
+    "vtt-journal.js"
+  ],
+  "styles": [
+    "vtt-journal.css"
+  ],
   "compatibility": {
     "minimum": "10",
-    "maximum": "10",
     "verified": "10"
   },
   "relationships": {
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-        "compatibility": {
-          "minimum": "2.0.0"
-        }
+        "type": "system"
       }
     ]
   },
