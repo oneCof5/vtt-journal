@@ -8,13 +8,8 @@
     }
   ],
   "version": "0.1",
-  "esmodules": ["scripts/vtt-journal.js"],
-  "styles": ["styles/vtt-journal.css"],
-  "languages": [{
-    "lang": "en",
-    "name": "English",
-    "path": "lang/en.json"
-  }],
+  "esmodules": ["vtt-journal.js"],
+  "styles": ["vtt-journal.css"],
   "compatibility": {
     "minimum": "10",
     "verified": "10"
