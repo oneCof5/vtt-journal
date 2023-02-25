@@ -1,6 +1,6 @@
 {
   "id": "vtt-journal",
-  "title": "Peashooter's Extended Journal",
+  "title": "Peashooter's Journal Personalizations",
   "description": "Personalized extensions to Journals (styles and CSS formatting)",
   "authors": [
     {
@@ -9,12 +9,13 @@
       "discord": "Peashooter#0479"
     }
   ],
-  "version": "0.1",
+  "version": "10.0.x",
   "esmodules": [
     "scripts/vtt-journal.js"
   ],
   "styles": [
-    "styles/vtt-journal.css"
+    "styles/ddb-clone.css",
+    "styles/secret.css"
   ],
   "compatibility": {
     "minimum": "10",

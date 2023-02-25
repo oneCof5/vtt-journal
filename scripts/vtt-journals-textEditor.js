@@ -4,17 +4,17 @@ export class VTTJournalTextEditor extends TextEditor {
       super.enrichHTML(content, options);
   }
 
-  static _createTornPaper = function (match) {
+  static _createTornPaperBlock = function (match) {
     //Get a random value
     console.log(match)
-      const a = document.createElement("span");
+      const a = document.createElement("div");
       a.setAttribute('class', 'block-torn-paper');
       a.innerHTML = match[2];
       if (game.user.isGM == false ) a.innerHTML = '';
       return a;
   };
 
-  static _createSecret = function (match) {
+  static _createGmSecretBlock = function (match) {
       //Get a random value
       console.log(match)
         const a = document.createElement("div");
