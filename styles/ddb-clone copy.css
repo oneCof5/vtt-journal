@@ -1,28 +1,3 @@
-section.secret {
-  background: rgba(50, 0, 121, 0.1);
-}
-
-section.secret.gm-only {
-  background: rgba(121, 0, 53, 0.1);
-}
-
-section.secret:before {
-  content: "secret";
-  font-size: .9rem;
-  font-weight: 700;
-  font-variant-caps: small-caps;
-  opacity: .5;
-}
-
-section.gm-only:before {
-  content: "gm-only secret";
-  color: rgb(121, 0, 53);
-}
-
-body:not(.game-master) section.gm-only {
-  display: none;
-}
-
 .window-app.sheet.journal-sheet.journal-entry {
   font-family: Roboto, Helvetica, sans-serif;
 }
@@ -78,6 +53,7 @@ body:not(.game-master) section.gm-only {
 .window-app.sheet.journal-sheet.journal-entry-page section h1 {
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: .8em;
     clear: both;
 }
 
@@ -104,7 +80,7 @@ body:not(.game-master) section.gm-only {
 .window-app.sheet.journal-sheet.journal-entry section.journal-entry-content h4,
 .window-app.sheet.journal-sheet.journal-entry-page section h4 {
   font-size: 18px;
-  font-weight: 400;
+  font-wight: 700;
 }
 
 .window-app.sheet.journal-sheet.journal-entry section.journal-entry-content h5,
@@ -112,7 +88,7 @@ body:not(.game-master) section.gm-only {
 .window-app.sheet.journal-sheet.journal-entry section.journal-entry-content h6,
 .window-app.sheet.journal-sheet.journal-entry-page section h6 {
   font-size: 16px;
-  font-weight: 400;
+  font-wight: 700;
 }
 
 aside.block-torn-paper,

@@ -11,8 +11,7 @@
   ],
   "version": "0.1",
   "esmodules": [
-    "scripts/vtt-journal.js",
-    "scripts/hello.js"
+    "scripts/vtt-journal.js"
   ],
   "styles": [
     "styles/vtt-journal.css"
